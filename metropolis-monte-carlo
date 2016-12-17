@@ -13,7 +13,6 @@ for x in range(L):
         if lattice[x][y] == 0:
             lattice[x][y] = -1.0
 
-
 spin = lattice
 T = 2.265
 M = np.sum(lattice)
