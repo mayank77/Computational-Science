@@ -1,3 +1,7 @@
+'''
+Adaptive Simpson Numerical Integration
+'''
+
 import math as mt
 from sympy import *
 import numpy as np
