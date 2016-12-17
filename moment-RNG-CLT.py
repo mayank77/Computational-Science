@@ -1,3 +1,7 @@
+'''
+kth moment analysis for LCG/SRGL. Central Limit Theorm Verification
+'''
+
 import numpy as np
 from pylab import show,hist,subplot,figure
 
