@@ -1,3 +1,7 @@
+'''
+Newton-Bisection Method for Root Convergence
+'''
+
 import math as mt
 result = []
 result.append(0.57735)
