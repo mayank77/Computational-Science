@@ -1,3 +1,7 @@
+'''
+Box-Muller algorithm to create Gaussian distributed random numbers with uniform.
+'''
+
 import numpy as np
 from pylab import show,hist,subplot,figure
 
