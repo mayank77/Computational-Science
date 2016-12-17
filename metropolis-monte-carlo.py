@@ -98,7 +98,7 @@ for mcs in range(10000):
     energies.append(E)
     internal.append(E/(L*L))
     magnetization.append(M/(L*L))
-'''
+
 plt.plot(MCS,internal)
 plt.plot(MCS,magnetization)
 plt.xlabel('time (MCS)')
@@ -111,6 +111,6 @@ for x in range(L):
         else:
             print u'\x95'.encode('utf8'),
     print ""
- '''   
+   
 print np.mean(magnetization)
 print np.mean(np.abs(magnetization))
