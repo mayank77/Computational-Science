@@ -1,3 +1,7 @@
+'''
+Spline Cubic Interpolant for Titanium Dataset
+'''
+
 import string
 import numpy as np
 from matplotlib import pyplot as plt
