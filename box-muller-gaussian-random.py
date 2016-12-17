@@ -1,5 +1,5 @@
 '''
-Box-Muller algorithm to create Gaussian distributed random numbers with uniform.
+Box-Muller algorithm to create Gaussian distributed random numbers with uniform RNG.
 '''
 
 import numpy as np
