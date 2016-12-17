@@ -64,5 +64,18 @@ for i in x:
     tmp1 = tmp1 + tmp
     result1.append(y[count] + (i-t[count])*tmp1)
 
-
 plt.plot(x, result1)
+
+'''
+MATLAB Spline Toolbox
+
+load titanium.dat;
+t = transpose(titanium(:,1));
+y = transpose(titanium(:,2));
+xx = linspace(600,1000,49);
+plot(xx,csapi(t,y,xx),'k-',t,y,'ro')
+title('Interpolant to Two Points')
+
+plot(xx,fnder(csapi(t,y,xx)),'k-',t,y,'ro')
+title('Interpolant to Two Points')
+'''
