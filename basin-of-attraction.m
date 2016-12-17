@@ -1,3 +1,7 @@
+'''
+Basis of Attraction with Newton's Root Convergence Method for Cube Roots of Unity
+'''
+
 x = -1:0.008:1; y = -1:0.008:1; 
 [x0, y0] = meshgrid(x,y); 
 n = zeros(size(x0)); 
