@@ -27,4 +27,4 @@ for i in range(0,30):
     ratio.append(numpy.mean(val))
     error.append(numpy.log(abs(numpy.mean(val) - 3.141592654)))
     n = n + 1000
-plt.plot( N , error )
+plt.plot( N , error ) 
