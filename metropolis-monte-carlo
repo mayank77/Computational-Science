@@ -1,3 +1,7 @@
+'''
+Metropolis Monte Carlo simulation of the 2D Ising model in zero field (H = 0) and on a square L x L lattice
+'''
+
 from __future__ import division
 import numpy as np
 import matplotlib.pyplot as plt
