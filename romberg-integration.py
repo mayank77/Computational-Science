@@ -1,3 +1,7 @@
+'''
+Romberg Integration
+'''
+
 import math as mt
 from sympy import *
 x = symbols('x')
