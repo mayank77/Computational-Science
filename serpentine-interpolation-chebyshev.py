@@ -1,3 +1,7 @@
+'''
+Serpentine Curve Interpolation With and Without Chebyshev Nodes
+'''
+
 import math as mt
 from sympy import *
 import numpy as np
