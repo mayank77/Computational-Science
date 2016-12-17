@@ -1,3 +1,7 @@
+'''
+Evaluation of Hilbert Matrix Gaussian elimination with scaled partial pivoting with RMS error analysis.
+'''
+
 import numpy as np
 import matplotlib.pyplot as plt
 vals = [2,5,8,12,15]
