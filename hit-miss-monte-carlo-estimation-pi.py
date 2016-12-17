@@ -1,3 +1,7 @@
+'''
+Estimate of π using the "hit-or-miss" Monte Carlo method with error approximation
+'''
+
 import numpy
 from decimal import *
 import matplotlib.pyplot as plt
