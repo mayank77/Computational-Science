@@ -1,3 +1,7 @@
+'''
+Importance Sampling to Compute Integrals and Compared to Sample Mean Method Approximation 
+'''
+
 import math as mt
 import numpy
 import matplotlib.pyplot as plt
